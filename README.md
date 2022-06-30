@@ -9,7 +9,9 @@ EXAMINING THE SOCIO-DEMOGRAPHIC AND PERSONALITY RISK FACTORS ASSOCIATED WITH DRU
 * [Abstract](#abstract)
 * [List of key files](#list_of_key_files)
 * [Python Libraries](#python_libraries)
-
+* [Methodology](#methodology)
+* [Results](#results)
+* [Conclusion](#conclusion)
 * [Creator & Credits](#creators)
 
 
@@ -80,6 +82,33 @@ Finally, to determine the best set of hyperparameters and features, correlation 
 * numpy
 * re
 * pandas
+
+## Methodology
+
+## Results
+
+The outcome variables for this dataset are all categorical and multiclass, therefore the overall goal will be maximizing the accuracy score of the predictions. However, it will also be important to see trade-offs between precision and recall, so those metrics will be monitored directly as well. The F1 score and the average precision score are also good measures when then are class imbalances, so those will be included as well. Along with recording model scores, I will record the processing time for each model and will fill out a results table like the one in Table 1 below.
+
+<b>Model summary performance metrics </b>
+| Metric | Model | Score | Processing Time for Model |
+| :--- | :----: | :----: | :----: |
+| Accuracy  | | |  |
+| Precision/Specificity |  | | | 
+| Recall/Sensitivity | | |  |
+| AUC |  |  |  | 
+| Average Precision Score | | | |
+
+
+## Conclusion
+
+At the conclusion of the study, I will summarize the findings, discussion, and limitations of the study in this section. It will address the following items:
+
+	1.	What is the relationship between the risk factors of personality, gender, education, nationality, age, and other attributes on the risk of consumption of stimulants, depressants, and hallucinogens?
+	2.	How effective were the machine learning models at predicting the risk of consumption of stimulants, depressants, and hallucinogens according to the evaluation metrics?
+		a.	What was the best approach?
+	3.	How does this study contribute to the existing body of literature?
+	4.	What are the limitations of the study and future research avenues?
+
 
 ## Creators & Credits <a name="creators"></a>
 
