@@ -9,6 +9,7 @@ EXAMINING THE SOCIO-DEMOGRAPHIC AND PERSONALITY RISK FACTORS ASSOCIATED WITH DRU
 * [Abstract](#abstract)
 * [List of key files](#list_of_key_files)
 * [Python Libraries](#python_libraries)
+* [Data Description](#data-descrption)
 * [Methodology](#methodology)
 * [Results](#results)
 * [Conclusion](#conclusion)
@@ -17,6 +18,7 @@ EXAMINING THE SOCIO-DEMOGRAPHIC AND PERSONALITY RISK FACTORS ASSOCIATED WITH DRU
 
 ## Purpose of Project
 
+This repository will contain the literature review, code, analysis, visualizations, and a full report for the study of the relationship between personality traits and sociodemographic risk factors and drug use. Three classes of drugs are examined: stimulants, depressants, and hallucinogens. Machine-learning models will be applied to predict the consumption of each class of drug based on the risk factors (see abstract for more details).
 
 ## Abstract
 
@@ -51,7 +53,23 @@ A preliminary analysis of the data shows that drug use is captured in frequency 
 •	Linear Discriminant Analysis (LDA)
 
 Finally, to determine the best set of hyperparameters and features, correlation analysis, principal component analysis, GridSerachCV and different metrics will be applied in model evaluation.
- 
+
+_**Tools and Techniques:**_
+
+Python will be used as the primary tool for this project. Data preparation, exploratory analysis and data modelling code will be saved in Jupyter notebooks or .py files.
+
+
+_**Evaluation Metrics:**_
+
+To assess the performance of the models in predicting drug use from the risk factors, the following metrics will be calculated:
+
+1.	Accuracy
+2.	Precision/Specificity
+3.	Recall/Sensitivity
+4.	AUC
+5.	Average Precision Score
+
+
 ## File structure and list of key files <a name="list_of_key_files"></a>
 
 * **app folder**
@@ -82,10 +100,18 @@ Finally, to determine the best set of hyperparameters and features, correlation 
 * numpy
 * re
 * pandas
+* scipy
+* seaborn
+* matplotlib
+
+## Data Description
+
+
 
 ## Methodology
 
 The methodology for the current study is presented in the following diagram:
+
 ![Methodology_Flowchart](https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/visuals/methodology_20220630.PNG)
 
 
