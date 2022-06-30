@@ -85,6 +85,10 @@ Finally, to determine the best set of hyperparameters and features, correlation 
 
 ## Methodology
 
+The methodology for the current study is presented in the following diagram:
+![Methodology_Flowchart](https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/visuals/methodology_20220630.PNG)
+
+
 ## Results
 
 The outcome variables for this dataset are all categorical and multiclass, therefore the overall goal will be maximizing the accuracy score of the predictions. However, it will also be important to see trade-offs between precision and recall, so those metrics will be monitored directly as well. The F1 score and the average precision score are also good measures when then are class imbalances, so those will be included as well. Along with recording model scores, I will record the processing time for each model and will fill out a results table like the one in Table 1 below.
