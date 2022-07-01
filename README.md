@@ -106,7 +106,33 @@ To assess the performance of the models in predicting drug use from the risk fac
 
 ## Data Description
 
+The dataset for the study was obtained from the from the open source repository - UCI Machine Learning Repository. See the following link: 
 
+http://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29#
+
+### Independent variables
+
+In this drug consumption dataset, there are five sociodemographic variables (Age, Gender, Education, Country, and Ethnicity), seven measures of personality (NEO-FFI-R/FFM: Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness; Impulsiveness, Sensation Seeking) and one row identifier (ID). Only ID will not be used as an input feature as it provides nothing more than a unique row count. The table below provides descriptive statistics for the 12 + 1 (ID) independent variables.
+
+![Independent_Descriptives](https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/visuals/data_description_1.PNG)
+
+### Outcome variables
+The data set contains eighteen outcome variables of drug use that are all categorical and are labelled with the same output classes. The table below outlines all the class labels and the respective definitions. One potential transformation might be having to group up the classes into only two or 3 classes depending on how imbalanced the classes are (see Data Preparation Transformation Column)
+
+![Outcome_Classes](https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/visuals/data_description_2.PNG)
+
+For this study, the eighteen different drugs will also be grouped into three broader classes of drugs. The groupings will be:
+
+<b>Data Preparation – Outcome variables Transformation  </b>
+| Major Class of Drug | Drug |
+| :--- | :----: |
+| Stimulants  | amphetamines, nicotine, cocaine powder, crack cocaine, caffeine, and chocolate |
+| Depressants | alcohol, amyl nitrite, benzodiazepines, tranquilizers, solvents and inhalants, heroin and methadone/prescribed opiates | 
+| Hallucinogens | cannabis, ecstasy, ketamine, LSD, and magic mushrooms |
+
+The original distributions for eighteen drugs are as follows:
+
+![Outcome_Distribution](https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/visuals/data_description_3.PNG)
 
 ## Methodology
 
