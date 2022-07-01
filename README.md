@@ -3,7 +3,6 @@
 EXAMINING THE SOCIO-DEMOGRAPHIC AND PERSONALITY RISK FACTORS ASSOCIATED WITH DRUG USE: A MACHINE-LEARNING APPROACH
 
 
-
 ## Table of Contents
 * [Purpose of Project](#purpose-of-project)
 * [Abstract](#abstract)
@@ -72,22 +71,21 @@ To assess the performance of the models in predicting drug use from the risk fac
 
 ## File structure and list of key files <a name="list_of_key_files"></a>
 
-* **app folder**
-	* template folder
-		* *master.html*  # main page of web app - displays three visualizations
-		* *go.html*  # classification result page of web app
-	* run.py  # Flask file that runs app (change host ip address here)
+* **html_outputs**
+	* 01_CIND_820_Descriptives_20220617.html #descriptive statistics
+	* 02_model_exploration_20220618.html #correlations and preliminary models
+	* 03_Data_preprocessing_and_initial_models_20220630.html #pre-processing and first run of all models
 
-* **data**
-	* *disaster_categories.csv*  # data to process 
-	* *disaster_messages.csv*  # data to process
-	* *process_data.py*		   #ETL pipeline script		
-	* *InsertDatabaseName.db*   # database to save clean data to
 
-* **models**
-	* *train_classifier.py* #ML pipeline script
-	* *classifier.pkl*  # saved model 
+* **visuals**
+	* data_description_1.PNG  
+	* data_description_2.PNG  
+	* data_description_3.PNG  		
+	* methodology_20220630.PNG   # methodology diagram
 
+* 01_CIND_820_Descriptives_20220617.ipynb #descriptive statistics - notebook
+* 02_model_exploration_20220618.ipynb #correlations and preliminary models - notebook
+* 03_Data_preprocessing_and_initial_models_20220630.ipynb #pre-processing and first run of all models - notebook
 * **README.md**
 
 ## Python_Libraries
@@ -109,6 +107,10 @@ To assess the performance of the models in predicting drug use from the risk fac
 The dataset for the study was obtained from the from the open source repository - UCI Machine Learning Repository. See the following link: 
 
 http://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29#
+
+Alternatively, a cleaned version can also be found in this repository:
+
+https://github.com/as2leung/personality_traits_associated_with_drug_use_ML_approach/blob/master/drug_consumption_cap_20220612.csv
 
 ### Independent variables
 
